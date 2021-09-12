@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body, p {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+p {
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.site-box {
+    margin: auto;
+    max-width: 1440px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.mb-15 {
+    margin-bottom: 25px;
+}
+
+.py-80 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.py-120 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.pl-80 {
+    padding-left: 80px;;
+}
+
+.pr-80 {
+    padding-right: 80px;;
+}
+
+.column-50 {
+    float: left;
+    width: 50%;
+}
+
+.site-navbar {
+    padding-top: 90px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.site-navbar-logo img {
+    width: 150px;
+}
+
+
+.site-navbar-left{
+    float: left;
+}
+
+.site-navbar-right{
+    float: right;
+}
+
+.navbar::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.navbar {
+    list-style: none;
+}
+
+.navbar li {
+    float: left;
+    margin-left: 40px;
+}
+
+.navbar li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: hsl(243, 87%, 12%);
+    font-weight: 500;
+}
+
+.navbar li a:hover {
+    color: hsl(224, 93%, 58%);
+}
+
+.hero-input {
+    position: relative;
+}
+
+.email-response {
+    position: absolute;
+    top: 100%;
+    font-weight: 500;
+    color: red;
+}
+
+.hero-input input {
+    float: left;
+    width: 55%;
+}
+
+.hero-input button {
+    float: left;
+    margin-left: 15px;
+}
+
+.hero-input input{
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    display: block;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    font-size: 16px;;
+
+}
+
+.hero-input input:focus,
+.hero-input input:active {
+    outline: none;
+}
+
+.hero-input button{
+    padding: 15px;
+    background-color: hsl(224, 93%, 58%);
+    border: 1px solid hsl(224, 93%, 58%);
+    display: block;
+    color: white;
+    font-size: 16px;
+    transition: 0.2s;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.hero-input button:focus,.hero-input button:active,.hero-input button:hover {
+    background-color: hsl(224, 84%, 62%);
+    border: 1px solid hsl(224, 84%, 62%);
+    cursor: pointer;
+    outline: none;
+}
+
+.hero-input button:hover {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.hs-column {
+    float: left;
+    width: 50%;
+}
+
+.hero-left {
+    margin-top: 120px;
+}
+
+.hero-left h1 {
+    font-size: 42px;
+}
+
+.hero-left h1 span {
+    display: block;
+}
+
+.hero-left p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-right: 80px;
+}
+
+.curve.mobile {
+    display: none;
+}
+
+.stay-productive-section {
+    background-color: hsl(240, 75%, 98%);
+}
+
+.stay-productive-left {
+    float: left;
+    width: 60%;
+}
+
+.stay-productive-left .para {
+    padding-right: 220px;
+}
+
+.stay-productive-left  h2{
+    margin-bottom: 30px;
+    font-size: 38px;
+}
+
+
+.stay-productive-left  p{
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.stay-productive-right {
+    float: right;
+    width: 40%;
+}
+
+.stay-productive-left .link {
+    margin-top: 15px;
+    display: inline-block;
+    padding-bottom: 6px;
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+}
+
+.stay-productive-left .link a{
+    color: hsl(170, 45%, 43%);
+    font-weight: 600;
+    text-decoration: none;
+    float: left;
+}
+
+.stay-productive-left .link img {
+    width: 20px;
+    float: left;
+    margin-left: 5px;
+}
+
+.card {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.04),
+                -5px -5px 10px rgba(0, 0, 0, 0.04);
+    background-color: white;
+    border-radius: 6px;
+    padding: 30px;
+    width: 420px;
+    margin-top: 30px;
+}
+
+.card .quote {
+    width: 20px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.card .profile {
+    margin-top: 15px;
+}
+
+.card .profile .img {
+    width: 40px;
+    float: left;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.card .profile-info {
+    float: left;
+    margin-left: 10px;
+}
+
+.card .profile-info h3{
+    font-size: 15px;
+}
+
+.card .profile-info p{
+    font-size: 11px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 0px;
+}
+
+.early-access {
+    background-color:  hsl(238, 22%, 44%);
+    color: white;
+}
+
+.early-access-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.early-access-description {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.early-access-right input{
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: block;
+    width: 500px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    font-size: 16px;;
+
+}
+
+.early-access-right input:focus,
+.early-access-right input:active {
+    outline: none;
+}
+
+.early-access-right button{
+    padding: 15px;
+    background-color: hsl(224, 93%, 58%);
+    border: 1px solid hsl(224, 93%, 58%);
+    display: block;
+    color: white;
+    font-size: 16px;
+    border-radius: 3px;
+    transition: 0.2s;
+    margin-bottom: 5px;
+}
+
+.early-access button:focus,.early-access button:active,.early-access button:hover {
+    background-color: hsl(224, 84%, 62%);
+    border: 1px solid hsl(224, 84%, 62%);
+    cursor: pointer;
+    outline: none;
+}
+
+.early-access button:hover {
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+footer {
+    background-color: hsl(243, 87%, 12%);
+}
+
+footer .logo {  
+    width: 180px;
+    margin-bottom: 50px;
+}
+
+footer .logo img {
+    fill: red;
+}
+
+.footer-list-columns {
+    color: white;
+}
+
+.footer-list-columns .column {
+    float: left;
+    width: 25%;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.footer-list-columns .column.first {
+    padding-left: 0px;
+}
+
+.footer-list-columns .column.last {
+    padding-left: 0px;
+}
+
+.footer-list-columns ul {
+    list-style: none;
+}
+
+.footer-list-columns img {
+    width: 18px;
+    margin-top: 2px;
+}
+
+.footer-list-columns li {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.footer-list-columns li a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer-list-columns li span, .footer-list-columns img {
+    float: left;
+}
+
+.footer-list-columns li img {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    .py-80 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .column-50 {
+        width: 100%;
+        float: none;
+    }
+    .hero-section {
+        text-align: center;
+    }
+    .hero-left,.hero-right {
+        float: none;
+        width: 100%;
+    }
+
+    .hero-right {
+        width: 80%;
+        margin: 70px auto;
+    }
+
+    .hero-input {
+        margin-top: 40px;
+    }
+    .hero-input button {
+        width: 40%;
+    }
+    .hero-right {
+        margin-top: 130px;
+    }
+
+    .stay-productive-left, .stay-productive-right {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .stay-productive-left .para {
+        padding-right: 0px;
+    }
+
+    .card {
+        margin: 30px auto;        
+    }
+    .stay-productive-right {
+        width: 80%;
+        margin: 70px auto;
+    }
+    .early-access {
+        text-align: center;
+    }
+    .early-access input {
+        margin-top: 30px;
+    }
+    .early-access-right, .early-access-left {
+        padding: 0px;
+    }
+    .early-access button, .early-access input {
+        width: 100%;
+    }
+
+    footer .site-box{
+        padding-top: 60px;
+    }
+
+    footer .logo{
+        width: 150px;
+    }
+
+    .footer-list-columns .column{
+        width: 100%;
+        float: none;
+        padding: 0px;
+        margin-top: 50px;
+    }
+
+    .footer-social {
+        text-align: center;
+    }
+
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+
+    .site-box {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .site-navbar {
+        padding-top: 30px;
+        text-align: center;
+    }
+    .site-navbar-left, .site-navbar-right {
+        float: none;
+        width: 100%;
+    }
+
+    .site-navbar-logo img{
+        text-align: center;
+        margin: auto;
+    }
+
+    .navbar {
+        margin-top: 30px;
+        padding: 0px;
+        text-align: center;
+        display: inline-block;
+    }
+    .navbar li{
+        margin: auto;
+        display: inline-block;
+    }
+    .navbar li a{
+        font-size: 18px;
+        padding: 20px;
+    }
+
+    .hero-left {
+        margin-top: 0px;
+    }
+
+    .hero-left h1{
+        font-size: 26px;
+    }
+
+    .hero-left p{
+        padding-right: 0px;
+    }
+
+    .hero-input {
+        margin-top: 40px;
+    }
+
+    .hero-input input, .hero-input button {
+        float: none;
+        width: 100%;
+    }
+
+    .hero-input button {
+        margin-left: 0px;
+    }
+
+    .hero-right {
+        margin-top: 70px;
+    }
+
+    .stay-productive-left h2 {
+        font-size: 26px;
+    }
+
+    .card {
+        margin: 30px auto;        
+    }
+    .card .profile {
+        text-align: left;
+    }
+    
+
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+}

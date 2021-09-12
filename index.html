@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
+  
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+</head>
+<body>
+
+  <div class="site-wrapper">
+
+    <nav class="site-navbar clearfix site-box">
+      <div class="site-navbar-left sn-column">
+        <div class="site-navbar-logo">
+          <img src="./images/logo.svg" alt="logo">
+        </div>
+        <!-- logo end -->
+      </div>
+      <!-- navbar left end -->
+      <div class="site-navbar-right sn-column">
+        <ul class="navbar">
+          <li>
+            <a href="#">Features</a>
+          </li>
+          <li>
+            <a href="#">Team</a>
+          </li>
+          <li>
+            <a href="#">Sign In</a>
+          </li>
+        </ul>
+        <!-- navbar end -->
+      </div>
+      <!-- navbar right end -->
+    </nav>
+    <!-- nav end -->
+
+    <section class="hero-section clearfix py-80 site-box">
+      <div class="hero-left hs-column">
+        <div class="hero-content mb-25">
+            <h1>
+              <span>All your files in one secure </span> 
+              <span>location, accessible anywhere.</span>  
+            </h1>
+            <p>Fylo stores your most important files in one secure location. 
+              Access them wherever you need, share and collaborate with friends, 
+              family, and co-workers.</p>
+        </div>
+        <div class="hero-input clearfix">
+          <input type="text" id="emailInput">
+          <button class="early-access-button" id="emailButton" type="submit">Get Started For Free</button>
+          <div class="email-response" id="emailResponse"></div>
+        </div>
+        <!-- here content end -->
+      </div>
+      <!-- hero left end -->
+      <div class="hero-right hs-column">
+        <img src="./images/illustration-1.svg" alt="illustration">
+      </div>
+      <!-- hero right end -->
+    </section>
+
+    <div class="bg-curve">
+      <img src="./images/bg-curve-desktop.svg" alt="desktop curve" class="desktop curve">
+      <img src="./images/bg-curve-mobile.svg" alt="mobile curve" class="mobile curve">
+    </div>
+    <!-- bg curves end -->
+
+    <section class="stay-productive-section py-80">
+      <div class="section-content site-box clearfix">
+        <div class="stay-productive-left">
+          <div>
+            <h2>Stay productive, wherever you are</h2>
+            <div class="para">
+              <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
+              <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>  
+            </div>
+            <div class="link">
+              <a href="#">See you Fylo works</a>
+              <img src="./images/icon-arrow.svg" alt="arrow icon">
+            </div>
+
+            <div class="card">
+              <img class="quote" src="./images/icon-quotes.svg" alt="quotes icon">
+              <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+              <div class="profile clearfix">
+                <div class="img">
+                  <img src="./images/avatar-testimonial.jpg" alt="avatar">
+                </div>
+                <div class="profile-info">
+                  <h3>Kyle Burton</h3>
+                  <p>Founder & CEO, Huddle</p>
+                </div>
+              </div>
+              <!-- profile end -->
+            </div>
+            <!-- card -->
+          </div>
+        </div>
+        <!-- stay productive left -->
+        <div class="stay-productive-right">
+          <img src="./images/illustration-2.svg" alt="illustration">
+        </div>
+        <!-- stay productive right -->
+      </div>
+    </section>
+    <!-- stay connected section end -->
+
+    <section class="early-access py-120">
+      <div class="site-box clearfix">
+        <div class="early-access-left column-50 pr-80">
+          <div>
+            <div class="early-access-title">Get early access today</div>
+            <p class="early-access-description">
+              It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.
+            </p>
+          </div>
+        </div>
+        <!-- early access left end -->
+        <div class="early-access-right column-50 pl-80">
+          <div>
+            <input type="text" class="earyl-access-input">
+            <button class="early-access-button" type="submit">Get Started For Free</button>
+          </div>
+        </div>
+        <!-- early access right end -->
+      </div>
+    </section>
+
+    <footer class="py-80">
+      <div class="site-box">
+        <div class="logo">
+          <img src="images/logo-white.svg" alt="logo">
+        </div>
+        <!-- footer logo -->
+        <div class="footer-list-columns clearfix">
+          <div class="column first">
+            <ul>
+              <li class="clearfix">
+                <img src="./images/icon-phone.svg" alt="icon">
+                <span>Phone: +-543-123-4567</span>
+              </li>
+              <li class="clearfix">
+                <img src="./images/icon-email.svg" alt="icon">
+                <a href="mailto:example@fylo.com">example@fylo.com</a>
+              </li>
+            </ul>
+          </div>
+          <!-- column end -->
+          <div class="column">
+            <ul>
+              <li> <a href="#">About</a></li>
+              <li> <a href="#">Jobs</a></li>
+              <li> <a href="#">Pres</a></li>
+              <li> <a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <!-- column end -->
+          <div class="column">
+            <ul>
+              <li> <a href="#">Contact Us</a></li>
+              <li> <a href="#">Terms</a></li>
+              <li> <a href="#">Privacy</a></li>
+            </ul>
+          </div>
+          <!-- column end -->
+          <div class="column last">
+            <ul class="footer-social">
+              <a href="#">
+                <img src="./images/facebook.svg" alt="facebook">
+              </a>
+              <a href="#">
+                <img src="./images/instagram.svg" alt="instagram">
+              </a>
+              <a href="#">
+                <img src="./images/youtube.svg" alt="youtube">
+              </a>
+            </ul>
+          </div>
+          <!-- column end -->        
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
